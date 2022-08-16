@@ -1,0 +1,111 @@
+.sections-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  /* padding: 15px; */
+  box-sizing: border-box;
+  margin: 0 15px 15px 0;
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+  min-width: 250px;
+  width: 100%;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+}
+
+.field textarea {
+  min-height: 150px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.field-button-wrapper {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.field-button-wrapper input {
+  flex: 1;
+}
+
+.field-button {
+  min-height: 32px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.url-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.section-fit {
+  width: 100%;
+}
+
+.section-fit>span {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+}
+
+.row .section {
+  border-bottom: none;
+}
+
+.row .section:first-of-type {
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+
+.area-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.area-wrapper>span {
+  font-weight: bold;
+}
+
+.area-items-list button {
+  margin-top: 0;
+}
+
+.area-wrapper .url-item {
+  margin-top: 5px;
+}
